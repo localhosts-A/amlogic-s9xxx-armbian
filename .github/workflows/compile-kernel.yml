@@ -16,7 +16,7 @@ on:
         default: "unifreq"
         type: choice
         options:
-          - unifreq
+          - localhosts-A
           - codesnas
       kernel_version:
         description: "Select kernel version"
