@@ -139,8 +139,8 @@ jobs:
         if: ${{ steps.mapped.outputs.status }} == 'success' && !cancelled()
         with:
           build_target: kernel
-          kernel_config: tools/config
-          kernel_patch: tools/patch
+          kernel_config: /home/runner/work/_actions/ophub/amlogic-s9xxx-armbian/main/compile-kernel/tools/config
+          kernel_patch: /home/runner/work/_actions/ophub/amlogic-s9xxx-armbian/main/compile-kernel/tools/patch
           auto_patch: true
           kernel_source: ${{ inputs.kernel_source }}
           kernel_version: ${{ inputs.kernel_version }}
