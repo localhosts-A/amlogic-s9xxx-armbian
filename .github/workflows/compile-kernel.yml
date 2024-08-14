@@ -69,7 +69,7 @@ on:
         type: choice
         options:
           - -ophub
-          - -CyberDing
+          - -CyberKernel
 
 env:
   TZ: America/New_York
